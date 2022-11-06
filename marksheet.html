@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="css/marksheet.css">
+</head>
+<body>
+        <div class="marks">
+        <h1>Marksheet</h1>
+        <label for ="name">Enter your name:</label>
+        <input type="text"id="name"><br><br>
+        <label for ="class">Enter your class:</label>
+        <input type="text"id="class"><br><br>
+        <label for="math">Enter your marks in math:</label>
+        <input type="text" id="math"><br><br>
+        <label for="sociology">Enter your marks in sociology:</label>
+        <input type="text" id="sociology"><br><br>
+        <label for="english">Enter your marks in english:</label>
+        <input type="text" id="english"><br><br>
+        <label for="digitallogic">Enter your marks in digital logic:</label>
+        <input type="text" id="digitallogic"><br><br>
+        <label for="computer">Enter your marks in computer:</label>
+        <input type="text" id="computer"><br><br></br>
+        <input type="submit" onclick="myFunction()">
+        
+        </div> 
+        <p id="demo"></p>
+        <table>
+            <tr>
+                <th>totalmarks</th>
+                <th>500</th>
+
+            </tr>
+            <tr>
+                <th>percentage(%)</th>
+                <th><p id="percentage"></p></th>
+            </tr>
+            <tr>
+                <th>Result</th>
+                <th><p id="remarks"></p></th>
+            </tr>
+    
+
+            
+        </table>
+        
+
+        
+        <script src="js/marksheet.js"></script>
+    
+</body>
+</html>
